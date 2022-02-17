@@ -496,21 +496,6 @@ form{
 
 .footer__logo{
     width: 50px;
-    position: relative;
-    top: 17px;
-    padding-left: .5rem;
-}
-
-.footer__logo1{
-    left: 2rem;
-}
-
-.footer__logo2{
-    left: 3rem;
-}
-
-.footer__logo3{
-    left: 1.75rem;
 }
 
 /* cierre modificaciones footer */
