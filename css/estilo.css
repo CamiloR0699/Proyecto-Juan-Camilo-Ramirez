@@ -189,18 +189,22 @@ article{
     justify-content: center;
     align-items: center;
     margin: 0px 5rem;
+    background: rgba(82, 82, 82, 0.1)    /*  10% opaque green */ 
 } 
 
 .serviciosImg1{
     grid-area: serviciosImg1;
+    padding: 1rem;
 }
 
 .serviciosImg2{
     grid-area: serviciosImg2;
+    padding: 1rem;
 }
 
 .serviciosImg3{
     grid-area: serviciosImg3;
+    padding: 1rem;
 }
 
 .servicios__seccion1{
@@ -216,9 +220,8 @@ article{
 }
 
 .main__secciones{
-    padding: 25px;
-    width: 100%;
     height: auto;
+    transition: all 2s;
 }
 
 .main__subtitulo{
@@ -1109,4 +1112,11 @@ form{
         font-size: 1rem;
     }
 
+}
+
+/* animaciones */
+
+.main__secciones:hover{
+    border-radius: 10%;
+    opacity: .5;
 }
