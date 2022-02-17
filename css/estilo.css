@@ -219,6 +219,7 @@ article{
 }
 
 .main__secciones{
+    width: 100%;
     height: auto;
     transition: all 2s;
 }
