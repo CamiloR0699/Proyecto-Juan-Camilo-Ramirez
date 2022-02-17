@@ -524,12 +524,12 @@ form{
         background-color: rgb(238, 235, 221);
         display: flex;
         flex-direction: column;
-        padding: 0px 5rem;
+        padding: 0px 0rem;
     }
 
     .nav__a{
         color: rgb(41, 30, 10);
-        font-size: 1rem;
+        font-size: .8rem;
         font-family: 'Staatliches', cursive;
     }
 
@@ -539,8 +539,8 @@ form{
 
     li{
         list-style: none;
-        margin: .3rem;
-        padding: .1rem;
+        margin: .5rem;
+        padding: .3rem;
     }
 
     .header__logo{
