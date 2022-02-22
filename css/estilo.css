@@ -107,11 +107,13 @@ li{
     font-family: 'Big Shoulders Display', cursive;
     margin-top: 2rem;
     margin-bottom: 13rem;
+    padding: 1rem;
 }
 
 .index__descripcion1{
     grid-area: descripcionIn1;
     text-align: center;
+    margin: 2rem 6rem 13rem 6rem;
 }
 
 .index__descripcion2{
@@ -344,8 +346,10 @@ article{
 
 .img__conocenos2{
     grid-area: imagenConocenos2;
-    padding: 0 4rem 0 0;
+    transition: all 2s;
+    padding: 0;
     margin-left: 8rem;
+    margin-right: 4rem;
     margin-bottom: 4rem
 }
 
@@ -406,6 +410,11 @@ form{
     margin: 1rem;
     display: flex;
     flex-direction: row;
+}
+
+button{
+    border: 3px solid red;
+    text-transform: uppercase;
 }
 
 /* cierre modificaciones 'contacto' */
@@ -982,6 +991,13 @@ form{
         margin: .1rem;
     }
 
+    .boton{
+        background: none;
+        border: 2px solid black;
+        text-transform: uppercase;
+        padding: 10px 18px;
+    }
+
     .textarea{
         width: 15rem;
         height: 10rem;
@@ -1117,6 +1133,11 @@ form{
 /* animaciones */
 
 .main__secciones:hover{
+    border-radius: 10%;
+    opacity: .5;
+}
+
+.img__conocenos2:hover{
     border-radius: 10%;
     opacity: .5;
 }
